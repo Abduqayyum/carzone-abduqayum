@@ -8,8 +8,13 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 def cars(request):
     all_cars = Car.objects.order_by("-created_date")
     paginator = Paginator(all_cars,2)
-    page = request.GET.get("page")
-    paged_cars = paginator.get_page(page)
+    page_num = request.GET.get("page")
+    try:
+        paged_cars = paginator.page(page_num)
+    except PageNotAnInteger:
+        paged_cars = paginator.page(1)
+    except EmptyPage:
+        paged_cars = paginator.page(paginator.num_pages)
     model_search = Car.objects.values_list("model", flat=True).distinct()
     city_search = Car.objects.values_list("city", flat=True).distinct()
     year_search = Car.objects.values_list("year", flat=True).distinct()
