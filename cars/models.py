@@ -109,6 +109,7 @@ class Car(models.Model):
     features = MultiSelectField(choices=features_choices)
     body_style = models.CharField(max_length=200)
     transmission = models.CharField(max_length=200)
+    engine = models.CharField(max_length=200, null=True)
     interior = models.CharField(max_length=200)
     miles = models.IntegerField()
     doors = models.CharField(choices=door_choices, max_length=10)
