@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-p_#4$2-#d74&a&5w%b+=wyb%y+&_1b4%i&(dk=q)yd0tw-gp&f'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["secure-fortress-45271.herokuapp.com", "carzoneapp.co", "www.carzoneapp.co"]
 
