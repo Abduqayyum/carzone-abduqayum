@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-p_#4$2-#d74&a&5w%b+=wyb%y+&_1b4%i&(dk=q)yd0tw-gp&f
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["secure-fortress-45271.herokuapp.com", "carzoneapp.co", "www.carzoneapp.co"]
+ALLOWED_HOSTS = ["secure-fortress-45271.herokuapp.com", "carzoneapp.co", "www.carzoneapp.co", "127.0.0.1"]
 
 LOGIN_REDIRECT_URL = "dashboard"
 
@@ -157,8 +157,8 @@ SITE_ID = 1
 
 EMAIL_HOST = "smtp.gmail.com"
 EMAIL_POST = 587
-EMAIL_HOST_USER = "rasulmuhamedovabduqayum@gmail.com"
-EMAIL_HOST_PASSWORD = "cyglkoslkeqigwxx"
+EMAIL_HOST_USER = "rabduqayum2001@gmail.com"
+EMAIL_HOST_PASSWORD = "pnpwqyyogdcxhzql"
 EMAIL_USE_TLS = True
 
 

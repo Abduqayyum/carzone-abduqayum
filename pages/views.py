@@ -53,7 +53,7 @@ def contact(request):
         send_mail(
                 f"You have a new message regarding {subject}",
                 message_body,
-                'rasulmuhamedovabduqayum@gmail.com',
+                'rabduqayum2001@gmail.com',
                 [admin_email],
                 fail_silently=False,
             )
