@@ -162,4 +162,4 @@ EMAIL_HOST_PASSWORD = "cyglkoslkeqigwxx"
 EMAIL_USE_TLS = True
 
 
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+#STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
