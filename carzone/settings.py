@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-p_#4$2-#d74&a&5w%b+=wyb%y+&_1b4%i&(dk=q)yd0tw-gp&f
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["secure-fortress-45271.herokuapp.com", "127.0.0.1"]
+ALLOWED_HOSTS = ["carzone-abduqayum.herokuapp.com", "127.0.0.1"]
 
 LOGIN_REDIRECT_URL = "dashboard"
 
